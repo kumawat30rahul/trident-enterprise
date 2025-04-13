@@ -23,17 +23,17 @@ const HeroSection = () => {
         {/* Text Content */}
         <div className="flex flex-col space-y-6 max-w-2xl z-20">
           <span className="text-blue-400 text-md md:text-lg font-medium text-center md:text-start">
-            WELCOME TO QUALITY COMPONENTS
+            WELCOME TO GURUKRIPA INDUSTRIES
           </span>
 
           <h1 className="text-white text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-center md:text-start">
-            Precision Engineering for Your Needs
+            Precision Sheet Metal Manufacturing
           </h1>
 
           <p className="text-gray-300 text-sm md:text-xl text-center md:text-start">
-            We specialize in manufacturing high-quality brackets, washers,
-            bushes, mountings, terminals, and more to meet your industrial
-            requirements.
+            Founded with a passion for precision and craftsmanship, we
+            specialize in manufacturing small-scale, custom sheet metal parts
+            that meet the unique needs of each client.
           </p>
 
           <div className="pt-4 text-center md:text-start">

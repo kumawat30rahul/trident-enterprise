@@ -7,19 +7,19 @@ const FeatureCards = () => {
       icon: Settings,
       title: "Custom Manufacturing",
       description:
-        "Tailored solutions for your specific needs, ensuring the highest quality and precision in every component we produce.",
+        "We work closely with our clients to understand their needs and deliver tailored sheet metal solutions with precision and excellence.",
     },
     {
       icon: Users,
-      title: "Skilled Workforce",
+      title: "40+ Years Experience",
       description:
-        "Our expert team is dedicated to delivering top-notch manufacturing services with a focus on precision and reliability.",
+        "With over 40 years in metal stamping and press metal parts, our expertise ensures quality, durability, and performance in every component.",
     },
     {
       icon: Package,
-      title: "Comprehensive Solutions",
+      title: "Quality Assurance",
       description:
-        "From design to delivery, we provide a wide range of components to support your projects and applications efficiently.",
+        "As an ISO 9001:2015 certified manufacturing unit, we ensure every component meets strict quality standards for reliability and durability.",
     },
   ];
 

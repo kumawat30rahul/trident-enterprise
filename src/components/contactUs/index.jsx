@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -28,8 +28,9 @@ const ContactForm = () => {
         <div className="text-blue-400 mb-2">CONTACT OUR TEAM</div>
         <h1 className="text-4xl font-bold text-white mb-4">Reach Out to Us</h1>
         <p className="mb-8">
-          We're here to assist you with all your manufacturing needs, from
-          brackets to terminals.
+          Whether you're looking for intricate custom designs, quick
+          turnarounds, or expert advice, Gurukripa Industries is here to bring
+          your vision to life with excellence in sheet metal manufacturing.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -104,20 +105,18 @@ const ContactForm = () => {
           <div className="bg-zinc-800 p-6 rounded">
             <div className="mb-8">
               <h3 className="text-blue-400 mb-2">OUR ADDRESS</h3>
-              <p className="text-xl font-semibold">
-                456 Industry Lane, Tech Park,
-              </p>
-              <p className="text-xl font-semibold">USA 12345</p>
+              <p className="text-xl font-semibold">Outskirts of Mumbai,</p>
+              <p className="text-xl font-semibold">Maharashtra, India</p>
             </div>
 
             <div className="mb-8">
               <h3 className="text-blue-400 mb-2">CONTACT EMAIL</h3>
-              <p className="text-xl">contact@manufacturersrl.com</p>
+              <p className="text-xl">contact@gurukripa.com</p>
             </div>
 
             <div className="mb-8">
               <h3 className="text-blue-400 mb-2">CONTACT PHONE</h3>
-              <p className="text-xl">1-800-123-4567</p>
+              <p className="text-xl">+91-000-000-0000</p>
             </div>
 
             <div className="flex gap-4">
@@ -137,7 +136,7 @@ const ContactForm = () => {
                 href="#"
                 className="p-2 bg-zinc-700 rounded-full hover:bg-zinc-600 transition duration-300"
               >
-                <Twitter size={24} />
+                <Linkedin size={24} />
               </a>
             </div>
           </div>

@@ -7,7 +7,7 @@ const TopNavbar = () => {
       <div className="max-w-7xl mx-auto flex flex-row items-center justify-between">
         {/* Logo */}
         <div className="text-white text-2xl font-bold">
-          logoipsum<span className="text-blue-400">+</span>
+          Gurukripa<span className="text-blue-400">Industries</span>
         </div>
 
         {/* Middle section */}
@@ -20,7 +20,7 @@ const TopNavbar = () => {
               </div>
               <div className="flex flex-col items-start">
                 <div className="text-white font-semibold">Get In Touch</div>
-                <div className="text-sm">support@manufacturesrl.com</div>
+                <div className="text-sm">contact@gurukripa.com</div>
               </div>
             </div>
             <div className="flex items-center gap-2 text-gray-300 cursor-pointer">
@@ -29,7 +29,7 @@ const TopNavbar = () => {
               </div>
               <div className="flex flex-col items-start">
                 <div className="text-white font-semibold">Visit Our Office</div>
-                <div className="text-sm">Detroit, MI</div>
+                <div className="text-sm">Mumbai, India</div>
               </div>
             </div>
           </div>

@@ -9,19 +9,20 @@ const Footer = () => {
           {/* Logo and Info Section */}
           <div className="md:col-span-2">
             <div className="text-2xl font-bold text-white mb-4">
-              logoipsum<span className="text-blue-400">★</span>
+              Gurukripa<span className="text-blue-400">Industries</span>
             </div>
             <p className="mb-4">
-              We specialize in manufacturing brackets, washers, bushes,
-              mountings, terminals, and more.
+              A trusted provider of high-quality sheet metal components for a
+              wide range of industries since 1985. ISO 9001:2015 certified
+              manufacturing unit specializing in small-scale production.
             </p>
             <div className="flex items-center gap-2">
               <Mail size={20} />
               <a
-                href="mailto:contact@ourmanufacturingcompany.com"
+                href="mailto:contact@gurukripa.com"
                 className="hover:text-blue-400"
               >
-                contact@ourmanufacturingcompany.com
+                contact@gurukripa.com
               </a>
             </div>
           </div>
@@ -36,7 +37,7 @@ const Footer = () => {
                 "Bushes",
                 "Mountings",
                 "Terminals",
-                "Connectors",
+                "Contacts",
               ].map((item) => (
                 <li key={item}>
                   <a href="#" className="hover:text-blue-400">
@@ -47,24 +48,12 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* About Us */}
-          {/* <div>
-            <h3 className="text-lg font-semibold text-white mb-4">About Us</h3>
-            <ul className="space-y-2">
-              {["Our Journey", "Advantages", "Team", "Careers"].map((item) => (
-                <li key={item}>
-                  <a href="#" className="hover:text-blue-400">
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div> */}
-
           {/* Contact & Support */}
           <div>
             <div className="mb-8">
-              <h3 className="text-lg font-semibold text-white mb-4">Contact</h3>
+              <h3 className="text-lg font-semibold text-white mb-4">
+                Connect With Us
+              </h3>
               <ul className="space-y-2">
                 {["Facebook", "Instagram", "LinkedIn"].map((item) => (
                   <li key={item}>
@@ -75,25 +64,13 @@ const Footer = () => {
                 ))}
               </ul>
             </div>
-            {/* <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Support</h3>
-              <ul className="space-y-2">
-                {["FAQ", "Contact Support"].map((item) => (
-                  <li key={item}>
-                    <a href="#" className="hover:text-blue-400">
-                      {item}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div> */}
           </div>
         </div>
 
         {/* Bottom Section */}
         <div className="border-t border-zinc-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm mb-4 md:mb-0">
-            Copyright© 2023. Our Manufacturing Company All Rights Reserved.
+            Copyright© 2025. Gurukripa Industries. All Rights Reserved.
           </div>
         </div>
       </div>

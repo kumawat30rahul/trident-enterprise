@@ -14,43 +14,51 @@ import {
 const WhyChooseUs = () => {
   const strengths = [
     {
-      icon: Package,
-      title: "Durable Materials",
+      icon: Hammer,
+      title: "Precision Engineering",
+      description:
+        "Every component is crafted with attention to detail, ensuring reliability and performance.",
     },
     {
       icon: Shield,
-      title: "Reliable Protection",
+      title: "ISO 9001:2015 Certified",
+      description:
+        "Our quality management system ensures consistent excellence in all manufacturing processes.",
     },
     {
       icon: ThumbsUp,
-      title: "Superior Quality",
+      title: "Long-term Partnerships",
+      description:
+        "We focus on building strong relationships with clients through trust and reliability.",
     },
     {
-      icon: Hammer,
-      title: "Precision Engineering",
+      icon: Package,
+      title: "Diverse Material Expertise",
+      description:
+        "Experience working with a wide range of materials from standard steels to specialized alloys.",
     },
   ];
 
   const stats = [
     {
       icon: Box,
-      number: "7500",
-      label: "Products Manufactured",
+      number: "1000",
+      label: "Distinct Components",
     },
     {
       icon: Star,
-      number: "500",
-      label: "Unique Bracket Designs",
+      number: "40",
+      label: "Years of Experience",
     },
     {
       icon: Truck,
-      number: "12000",
-      label: "Units Shipped",
+      number: "50",
+      label: "Satisfied Clients",
     },
     {
       icon: Award,
-      number: "50",
-      label: "Industry Awards",
+      number: "100",
+      label: "Positive Reviews",
     },
   ];
 
