@@ -6,49 +6,55 @@ const ProductsSection = () => {
     {
       icon: <Cog className="w-12 h-12 text-blue-400" />,
       title: "Mountings",
-      image: "",
+      image:
+        "https://www.rtprototype.com/wp-content/uploads/2023/11/L-shaped-bracket-image.jpg",
       description:
         "We produce durable and versatile mountings designed to provide strong support and alignment for components in machinery, equipment, and electronic devices.",
     },
     {
       icon: <Settings className="w-12 h-12 text-blue-400" />,
       title: "Brackets",
-      image: "",
+      image:
+        "https://www.rtprototype.com/wp-content/uploads/2023/11/L-shaped-bracket-image.jpg",
       description:
         "Our custom-made brackets are engineered to support and hold components in place, offering reliable strength for structural support in intricate assemblies.",
     },
     {
       icon: <Zap className="w-12 h-12 text-blue-400" />,
       title: "Terminals",
-      image: "",
+      image:
+        "https://www.rtprototype.com/wp-content/uploads/2023/11/L-shaped-bracket-image.jpg",
       description:
         "We manufacture high-quality sheet metal terminals for electrical applications, designed to provide secure connections with minimal resistance.",
     },
     {
       icon: <Sheet className="w-12 h-12 text-blue-400" />,
       title: "Contacts",
-      image: "",
+      image:
+        "https://www.rtprototype.com/wp-content/uploads/2023/11/L-shaped-bracket-image.jpg",
       description:
         "Our precision-engineered contacts are designed for seamless electrical connections, crafted from high-grade metals for reliable performance in switches, relays, and connectors.",
     },
     {
       icon: <Hexagon className="w-12 h-12 text-blue-400" />,
       title: "Washers",
-      image: "",
+      image:
+        "https://www.rtprototype.com/wp-content/uploads/2023/11/L-shaped-bracket-image.jpg",
       description:
         "We produce various washers including flat, spring, and lock washers that help distribute loads, prevent damage to components, and maintain secure fastening.",
     },
     {
       icon: <Box className="w-12 h-12 text-blue-400" />,
       title: "Bushes",
-      image: "",
+      image:
+        "https://www.rtprototype.com/wp-content/uploads/2023/11/L-shaped-bracket-image.jpg",
       description:
         "Our range of bushes is designed to reduce friction between moving parts, ensuring smooth operation and extended lifespan of machinery and equipment.",
     },
   ];
 
   return (
-    <div className="bg-white text-gray-800 py-16 ">
+    <div className="bg-gray-100 text-gray-800 py-16 ">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-16">
           <div className="text-red-600 mb-4 font-bold">

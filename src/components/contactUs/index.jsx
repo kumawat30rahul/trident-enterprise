@@ -23,10 +23,12 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-zinc-900 text-gray-300 p-8 min-h-screen">
+    <div className="bg-white text-gray-700 p-8 min-h-screen">
       <div className="max-w-6xl mx-auto">
-        <div className="text-blue-400 mb-2">CONTACT OUR TEAM</div>
-        <h1 className="text-4xl font-bold text-white mb-4">Reach Out to Us</h1>
+        <div className="text-red-600 mb-2">CONTACT OUR TEAM</div>
+        <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          Reach Out to Us
+        </h1>
         <p className="mb-8">
           Whether you're looking for intricate custom designs, quick
           turnarounds, or expert advice, Gurukripa Industries is here to bring
@@ -42,7 +44,7 @@ const ContactForm = () => {
                   <input
                     type="text"
                     name="fullName"
-                    className="w-full p-3 rounded bg-zinc-800 border border-zinc-700"
+                    className="w-full p-3 rounded bg-white border border-gray-300"
                     placeholder="Enter your full name"
                     onChange={handleChange}
                   />
@@ -52,7 +54,7 @@ const ContactForm = () => {
                   <input
                     type="tel"
                     name="contactNumber"
-                    className="w-full p-3 rounded bg-zinc-800 border border-zinc-700"
+                    className="w-full p-3 rounded bg-white border border-gray-300"
                     placeholder="Enter your contact number"
                     onChange={handleChange}
                   />
@@ -65,7 +67,7 @@ const ContactForm = () => {
                   <input
                     type="email"
                     name="email"
-                    className="w-full p-3 rounded bg-zinc-800 border border-zinc-700"
+                    className="w-full p-3 rounded bg-white border border-gray-300"
                     placeholder="Enter your email address"
                     onChange={handleChange}
                   />
@@ -75,7 +77,7 @@ const ContactForm = () => {
                   <input
                     type="text"
                     name="foundUs"
-                    className="w-full p-3 rounded bg-zinc-800 border border-zinc-700"
+                    className="w-full p-3 rounded bg-white border border-gray-300"
                     placeholder="Let us know how you found us"
                     onChange={handleChange}
                   />
@@ -87,7 +89,7 @@ const ContactForm = () => {
                 <textarea
                   name="message"
                   rows="6"
-                  className="w-full p-3 rounded bg-zinc-800 border border-zinc-700"
+                  className="w-full p-3 rounded bg-white border border-gray-300"
                   placeholder="Type your message here"
                   onChange={handleChange}
                 />
@@ -95,46 +97,50 @@ const ContactForm = () => {
 
               <button
                 type="submit"
-                className="w-full bg-zinc-700 hover:bg-zinc-600 text-white py-3 rounded transition duration-300"
+                className="w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded transition duration-300"
               >
                 SUBMIT INQUIRY
               </button>
             </form>
           </div>
 
-          <div className="bg-zinc-800 p-6 rounded">
+          <div className="bg-gray-100 p-6 rounded shadow-sm">
             <div className="mb-8">
-              <h3 className="text-blue-400 mb-2">OUR ADDRESS</h3>
-              <p className="text-xl font-semibold">Outskirts of Mumbai,</p>
-              <p className="text-xl font-semibold">Maharashtra, India</p>
+              <h3 className="text-red-600 mb-2">OUR ADDRESS</h3>
+              <p className="text-xl font-semibold text-gray-800">
+                Outskirts of Mumbai,
+              </p>
+              <p className="text-xl font-semibold text-gray-800">
+                Maharashtra, India
+              </p>
             </div>
 
             <div className="mb-8">
-              <h3 className="text-blue-400 mb-2">CONTACT EMAIL</h3>
-              <p className="text-xl">contact@gurukripa.com</p>
+              <h3 className="text-red-600 mb-2">CONTACT EMAIL</h3>
+              <p className="text-xl text-gray-800">contact@gurukripa.com</p>
             </div>
 
             <div className="mb-8">
-              <h3 className="text-blue-400 mb-2">CONTACT PHONE</h3>
-              <p className="text-xl">+91-000-000-0000</p>
+              <h3 className="text-red-600 mb-2">CONTACT PHONE</h3>
+              <p className="text-xl text-gray-800">+91-000-000-0000</p>
             </div>
 
             <div className="flex gap-4">
               <a
                 href="#"
-                className="p-2 bg-zinc-700 rounded-full hover:bg-zinc-600 transition duration-300"
+                className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition duration-300"
               >
                 <Facebook size={24} />
               </a>
               <a
                 href="#"
-                className="p-2 bg-zinc-700 rounded-full hover:bg-zinc-600 transition duration-300"
+                className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition duration-300"
               >
                 <Instagram size={24} />
               </a>
               <a
                 href="#"
-                className="p-2 bg-zinc-700 rounded-full hover:bg-zinc-600 transition duration-300"
+                className="p-2 bg-red-600 text-white rounded-full hover:bg-red-700 transition duration-300"
               >
                 <Linkedin size={24} />
               </a>
